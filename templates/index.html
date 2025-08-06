@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scam Reporting Assistant</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Scam Reporting Assistant</h1>
+            <p>Speak to report a scam</p>
+        </header>
+        <div class="chat-box" id="messages"></div>
+        <div class="controls">
+            <button id="startBtn" class="btn btn-primary">Start Listening</button>
+            <button id="stopBtn" class="btn btn-secondary" disabled>Stop Listening</button>
+            <button id="clearBtn" class="btn btn-clear">Clear Chat</button>
+        </div>
+        <div class="status" id="status">Ready</div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>

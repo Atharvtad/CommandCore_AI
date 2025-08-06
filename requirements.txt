@@ -1,0 +1,7 @@
+Flask
+sounddevice
+wavio
+transformers
+pyttsx3
+requests
+numpy
